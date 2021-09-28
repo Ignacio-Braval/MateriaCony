@@ -61,6 +61,7 @@ if OpcionCredito == "3":
 else:
    print('Debe seleccionar una opcion valida!!!')
 
+
 print("*El calculo final es*")
 print("")
 print("Credito con intereses simple a 6 años de carrera universitaria: ")
