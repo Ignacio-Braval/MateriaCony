@@ -3,7 +3,7 @@ personas = int(input( "personas: "))
 
 #Aqui verificamos que la cantidad sea mayor a 0 si no, no tiene sentido pedir nada
 while personas > 0:
-    #Le pedimos el nombre y lo guardamos en un input (Si usara Python 2.7 seria raw_input y no input pero usa python 3.7)
+    #Le pedimos el nombre y lo guardamos en un input (Si usara Python 2.7 seria raw_input y no input, pero usa python 3.7)
     n = input("Su nombre por favor: ")
     #Se pide al edad que siempre es un entero por eso el int() 
     e = int(input("Su edad en años por favor: "))
