@@ -5,6 +5,7 @@ print("")
 print("El 50 porciento del total de vehiculos estuvo 2,5 horas, el 35 porciento estuvo 3,2, el 10 porciento estuvo 1,45 y el 10 porciento solo 1 hora")
 print("")
 
+# Realiza un calculo del monto a pagar dependiendo de la cantidad de vehiculos que ingresemos.
 def calculoEstacionamiento():
     vehiculos = int(input("Ingrese el total de vehiculos estacionados: "))
     vehiculos50= (50*vehiculos) / 100
